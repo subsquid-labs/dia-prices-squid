@@ -1,0 +1,8 @@
+type PriceData @entity {
+  id: ID!
+  block: Int!
+  txHash: String!
+  key: String!
+  value: BigInt!
+  timestamp: BigInt!
+}
